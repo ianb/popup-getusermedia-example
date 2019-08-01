@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "Popup getUserMedia example",
+  "version": "0.1.0",
+  "description": "Something to demonstrate how getUserMedia works in an extension popup",
+  "developer": {
+    "name": "Ian Bicking",
+    "url": "https://github.com/ianb"
+  },
+  "icons": {
+    "48": "icon-48.png"
+  },
+  "permissions": [
+  ],
+  "browser_action": {
+    "browser_style": true,
+    "default_title": "Show getUserMedia",
+    "default_icon": "icon-48.png",
+    "default_popup": "popup.html"
+  }
+}

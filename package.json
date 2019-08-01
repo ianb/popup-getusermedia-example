@@ -1,0 +1,17 @@
+{
+  "name": "popup-getusermedia-example",
+  "description": "A WebExtension to demonstrate getUserMedia issue",
+  "private": true,
+  "version": "0.1.0",
+  "author": {
+    "name": "Ian Bicking",
+    "url": "https://github.com/ianb"
+  },
+  "devDependencies": {
+    "web-ext": "^3.1.1"
+  },
+  "homepage": "https://github.com/ianb/popup-=getusermedia-example",
+  "scripts": {
+    "start": "mkdir -p ${PROFILE:-Profile} && web-ext run --firefox-profile ${PROFILE:-Profile}/ --keep-profile-changes --firefox \"${FIREFOX:-nightly}\" --source-dir extension/ --browser-console"
+  }
+}

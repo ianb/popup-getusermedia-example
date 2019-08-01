@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Test getUserMedia</title>
+  </head>
+  <body>
+    <div style="min-width: 350px; min-height: 200px">
+      <div id="permission" class="status" style="display: none">
+        Please accept the permissions
+      </div>
+      <div id="ok" class="status" style="display: none">
+        We got the mic, thank you
+      </div>
+      <div id="failed" class="status" style="display: none">
+        We could not get the permissions
+      </div>
+      <div id="denied" class="status" style="display: none">
+        Permissions were rejected
+      </div>
+      <pre style="border: 1px solid #000">Status:</pre>
+      <a href="./popup.html?page" target="_blank">Open this as a page</a>
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html>
