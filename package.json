@@ -12,6 +12,6 @@
   },
   "homepage": "https://github.com/ianb/popup-=getusermedia-example",
   "scripts": {
-    "start": "mkdir -p ${PROFILE:-Profile} && web-ext run --firefox-profile ${PROFILE:-Profile}/ --keep-profile-changes --firefox \"${FIREFOX:-nightly}\" --source-dir extension/ --browser-console"
+    "start": "web-ext run --firefox \"${FIREFOX:-nightly}\" --source-dir extension/ --browser-console"
   }
 }
